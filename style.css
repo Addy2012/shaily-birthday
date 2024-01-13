@@ -18,7 +18,7 @@ body {
   position: relative;
   margin: 20px 0;
   width: 300px;
-  height: 400px;
+  height: 550px;
   background: linear-gradient(#fef7f7, #9198e5);
   transform-style: preserve-3d;
   transform: perspective(2000px);
@@ -74,6 +74,13 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: untold 3s infinite ease-in-out;
+}
+
+.shaily-birthday .shaily-birthday-details span {
+  background: purple;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  /* animation: untold 3s infinite ease-in-out; */
 }
 
 @keyframes untold {
